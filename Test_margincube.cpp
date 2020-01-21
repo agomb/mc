@@ -28,6 +28,6 @@ int main(){
         for(int j=0; j<=12; j++){
             std::cout<<configbase[i][j]<<" ";
         }
-        sdt::cout<<std::endl;
+        std::cout<<std::endl;
     };
 }
