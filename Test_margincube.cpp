@@ -24,10 +24,10 @@ int configbase [15][13] = {
 //mettre dans le main 
 
 int main(){
-    for(i=0; i<=14; i++){
-        for(j=0; j<=12; j++){
-            cout<<configbase[i][j]<<" ";
+    for(int i=0; i<=14; i++){
+        for(int j=0; j<=12; j++){
+            std::cout<<configbase[i][j]<<" ";
         }
-        cout<<endl;
+        sdt::cout<<std::endl;
     };
 }
